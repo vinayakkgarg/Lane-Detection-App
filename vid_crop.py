@@ -19,6 +19,7 @@ region_of_interest_vertices = [
     (-400, 400),
     (900, 450),
 ]
+
 #Loading the video
 vid = cv2.VideoCapture('Path for source video', 0)
 while(vid.isOpened()):
